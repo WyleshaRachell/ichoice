@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+  var headerHeight = $('header').outerHeight();
+  $('html').css('margin-top', headerHeight+'px');
+
   //Initialize the slider
   $('.slider').slick({
     autoplay: true,
@@ -14,6 +17,18 @@ $(document).ready(function() {
   .done(displayShoes)
   .fail(function(error) {
     console.log(error);
+  });
+
+  //Smooth window scroll
+  $("nav a").click(function(e) {
+      var id = $(this).attr('href'); //#home
+      var headerHeight = $('header').outerHeight();
+
+      $('html, body').animate({
+          scrollTop: $(id).offset().top - headerHeight
+      }, 2000);
+
+      e.preventDefault();
   });
 
 
