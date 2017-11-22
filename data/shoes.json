@@ -34,5 +34,17 @@
     "name": "AIR JORDAN 13",
     "price": "$190",
     "date": "DECEMBER 21ST, 2017"
+  },
+  {
+    "image": "https://images.complex.com/complex/images/c_crop,h_612,w_816,x_5,y_238/c_limit,w_680/fl_lossy,pg_1,q_auto/tt7bmfuphcuigrnt6g1h/off-white-air-jordan-1",
+    "name": "Off White x Air Jordan 1",
+    "price": "$190",
+    "date": "November 20, 2018"
+  },
+  {
+    "image": "https://images.complex.com/complex/images/c_crop,h_612,w_816,x_5,y_238/c_limit,w_680/fl_lossy,pg_1,q_auto/tt7bmfuphcuigrnt6g1h/off-white-air-jordan-1",
+    "name": "Off White x Air Jordan 1",
+    "price": "$190",
+    "date": "November 20, 2018"
   }]
 }
